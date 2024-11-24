@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "DoneWithIt",
-    "slug": "DoneWithIt",
+    "slug": "donewithit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,16 +13,24 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rtk21170.donewithit"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rtk21170.donewithit"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aa1f25fe-d537-4782-8226-359d0205923c"
+      }
+    },
+    "owner": "rtk21170"
   }
 }
